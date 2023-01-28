@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(245, 231, 224);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header__title {
+    text-align: center;
+    
+}
+
+.header__picture {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0px 0px 40px #a45034; 
+}
+
+.about {
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.about__title {
+    text-align: center;
+    font-size: 25px;
+}
+
+.about__text {
+    font-family: 'Roboto', sans-serif;
+    text-indent: 30px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.actors {
+    border: 5px solid #a45034;
+    margin: 10px 50px;
+
+}
+
+.actors__title {
+    text-align: center;
+    font-size: 25px;
+}
+
+.actors__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.actors__item {
+    text-align: center;
+    margin: 5px;
+
+}
+
+
+.actors__linc {
+    text-decoration: none;
+    color: rgb(110, 45, 7);
+    font-size: 18px;
+}
+
+.link-to-movie {
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    text-shadow: 0px 0px 10px #a45034;
+}
